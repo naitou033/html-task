@@ -1,0 +1,38 @@
+@charset "utf-8";
+body{
+    color: #f5f108;
+    background-image: url(img/BTR.jpg);
+    background-size: cover;
+}
+table,th,td{
+    background-color: rgba(230, 230, 230, 0.701);
+    border: solid 5px #f1f904;
+    border-collapse: collapse; 
+    font-size: 25px;
+    white-space: nowrap;
+    
+}
+table ,th{
+    font-family: "HGS明朝E", serif;
+}
+th{
+    font-family: "Castellar";
+    color: #3b08f5;
+}
+td{
+    color: rgb(248, 24, 8);
+}
+
+caption{
+    font-size: 80px;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    color: #df12bd;
+}
+img{
+    width: 80%;
+
+}
+
+th, td{
+    width: 70%;
+}
