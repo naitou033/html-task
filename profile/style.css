@@ -1,0 +1,12 @@
+@charset "utf-8";
+h1{
+    color: blue;
+    font-family: "明朝体";
+}
+.aaa{
+    color: rgb(0, 255, 21);
+    font-size: 25px;
+}
+span{
+    border: 2px solid blueviolet;
+}
