@@ -1,0 +1,31 @@
+@charset "utf-8";
+th, td{
+    border: solid 1px rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+.a{
+    background-color: rgb(255, 0, 0);
+    color: #e8f408;
+    font-size: 9px;
+    border-radius: 5px;
+}
+.aa{
+    font-size: 8px;
+}
+.aaa{
+    color: rgba(108, 68, 25, 0.685);
+}
+th {
+    background-color: rgb(128, 107, 102);
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+td{
+    background-color: rgb(223, 213, 206);
+}
+body{
+    margin: auto;
+}
