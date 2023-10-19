@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+</head>
+<body>
+    <p>必要事項を入力の上、送信ボタンを押してください</p>
+    <form action="#" method="post" enctype="multipart/form-data">
+        ID(メールアドレス)<input type="email" name="email" placeholder="例： xxx@morijyobi.ac.jp" size="30" required><br>
+        <label>パスワード(半角英数字8文字以上)<input type="password" name="password" size="30" minlength="8" required></label>
+        <label><input type="checkbox" name="pass">パスワードを表示する</label> <br>
+        氏名
+        性:<input type="text" name="user_name" required>
+        名:<input type="text" name="user_undername" required><br>
+        住所
+        〒<input type="text" name="homenum" size="8" disabled><br>
+        <input type="text" name="home_" disabled><br>
+        <input type="text" name="home__" placeholder="番地"><br>
+        <input type="text" name="home_name" placeholder="建物名"><br>
+        携帯電話番号(ハイフンなし)<input type="tel" name="tel" required><br>
+        学科・学年
+        <select name="department" required>
+            学科:
+            <option value="">選択してください</option>
+            <option value="A">高度情報工学科</option>
+            <option value="B">総合システム工学科</option>
+            <option value="C">情報システム科</option>
+        </select>
+        <select name="year" required>
+            学年:
+            <option value="">選択してください</option>
+            <option value="1">1年</option>
+            <option value="2">2年</option>
+            <option value="3">3年</option>
+            <option value="4">4年</option>
+        </select><br>
+        お得な情報・クーポン
+        <label><input type="radio" name="information" value="receive" required>受け取る</label>
+        <label><input type="radio" name="information" value="not">受け取らない</label><br>
+        ご意見・ご要望(200字以内でご記入ください)
+        <textarea name="multiple" cols="50" rows="5" maxlength="200"></textarea><br>
+    </form>
+    
+</body>
+</html>
