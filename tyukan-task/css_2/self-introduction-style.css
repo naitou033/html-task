@@ -1,0 +1,14 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+li{
+    color: rgb(229, 21, 248);
+}

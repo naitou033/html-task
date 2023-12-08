@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+img{
+    margin: 0 auto;
+    width: 50%;
+    height: 20%;
+    object-fit: cover;
+}
+h1{
+    font-size: 70px;
+}

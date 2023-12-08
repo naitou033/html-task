@@ -1,0 +1,10 @@
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}

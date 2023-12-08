@@ -1,0 +1,21 @@
+img{
+    margin: 0 auto;
+    width: 70%;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.yyy{
+    font-size: 25px;
+    color: rgb(229, 21, 248);
+}
+.uuu{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    color: blue;
+}
+ul{
+    list-style: url(marker\ \(1\).png);
+}
