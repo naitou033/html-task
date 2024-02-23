@@ -1,0 +1,28 @@
+#story{
+    background-image: url(img/r1280x720l.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.a{
+    background-color: rgba(180, 182, 184, 0.792);
+}
+img{
+    width: 590px;
+    height: 332px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.story{
+    background-color: rgb(66, 66, 66);
+}
+.a a{
+    font-size: 20px;
+    background-color: rgb(216, 244, 59);
+}

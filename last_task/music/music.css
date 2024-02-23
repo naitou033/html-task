@@ -1,0 +1,37 @@
+#music{
+    background-image: url(img/ネオスカ.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+}
+img{
+    width: 270px;
+    height: 270px;
+    margin-bottom: 10px;
+    margin-right: 17px;
+}
+.music{
+    background-color: rgb(143, 197, 239);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.music h3{
+    border-left: solid 7px gray;
+}
